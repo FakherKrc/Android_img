@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vue.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtIMG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|clip_vertical|fill_vertical"
+            android:gravity="center"
+            android:text="Mon IMG"
+            android:textSize="34sp" />
+
+        <ImageButton
+            android:id="@+id/btnMonIMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|clip_vertical|fill_vertical"
+            app:srcCompat="@drawable/normal" />
+
+        <TextView
+            android:id="@+id/txtHistorique"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Mon historique"
+            android:textSize="34sp" />
+
+        <ImageButton
+            android:id="@+id/btnHistorique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|clip_vertical|fill_vertical"
+            app:srcCompat="@drawable/historique" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
